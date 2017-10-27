@@ -1,6 +1,6 @@
 {
   "name": "moment-range-split",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Split moment.js ranges",
   "main": "index.js",
   "scripts": {
