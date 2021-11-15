@@ -9,7 +9,7 @@ on:
         default: "patch"
 jobs:
   publish:
-    environment: release 
+    environment: release
     runs-on: ubuntu-latest
     name: 'Bump version and publish'
     env:
@@ -18,13 +18,13 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - uses: actions/checkout@v2
-        with: 
+        with:
           token: ${{ secrets.GH_TOKEN }}
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12
-      - name: Install packages 
+          node-version: ${{ secrets.NODE_VERSION || 12 }}
+      - name: Install packages
         run: npm install
         env:
           NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
