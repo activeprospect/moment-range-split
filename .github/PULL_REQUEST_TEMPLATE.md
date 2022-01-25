@@ -12,7 +12,7 @@
 
 ## Related tickets
 
-> Link to Clubhouse Ticket Goes Here
+> Link to Shortcut Ticket Goes Here
 
 ## Checklists
 
@@ -30,8 +30,8 @@
 - [ ]  This branch has been rebased off master to be current.
 
 ### Tracking 
-- [ ]  Issue from Clubhouse has a link to this pull request.
-- [ ]  This PR has a link to the issue in Clubhouse.
+- [ ]  Issue from Shortcut has a link to this pull request.
+- [ ]  This PR has a link to the issue in Shortcut.
 
 ### QA
 - [ ]  This branch has been deployed to staging and tested.
