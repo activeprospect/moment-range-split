@@ -12,7 +12,7 @@
 
 ## Related tickets
 
-> Link to Shortcut Ticket Goes Here
+> Link to Shortcut/Jira Ticket Goes Here
 
 ## Checklists
 
@@ -30,7 +30,7 @@
 - [ ]  This branch has been rebased off master to be current.
 
 ### Tracking 
-- [ ]  Issue from Shortcut has a link to this pull request.
+- [ ]  Issue from Shortcut/Jira has a link to this pull request.
 - [ ]  This PR has a link to the issue in Shortcut.
 
 ### QA
