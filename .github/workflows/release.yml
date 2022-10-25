@@ -21,7 +21,7 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
       - name: Install Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ secrets.NODE_VERSION || 12 }}
       - name: Install packages
