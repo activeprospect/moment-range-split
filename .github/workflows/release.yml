@@ -23,7 +23,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ secrets.NODE_VERSION || 12 }}
+          node-version: 16
       - name: Install packages
         run: npm install
         env:
